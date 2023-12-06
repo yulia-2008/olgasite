@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5896fd21.css",
-    "main.js": "/static/js/main.2d96a62f.js",
-    "static/js/787.8b14554e.chunk.js": "/static/js/787.8b14554e.chunk.js",
-    "static/media/Olga2.jpg": "/static/media/Olga2.c2a8c059689946a89d63.jpg",
-    "static/media/OlgaPics.jpg": "/static/media/OlgaPics.618a0fe5b346e40e8008.jpg",
-    "index.html": "/index.html",
-    "main.5896fd21.css.map": "/static/css/main.5896fd21.css.map",
-    "main.2d96a62f.js.map": "/static/js/main.2d96a62f.js.map",
-    "787.8b14554e.chunk.js.map": "/static/js/787.8b14554e.chunk.js.map"
+    "main.css": "/olgasite/static/css/main.bfae89d6.css",
+    "main.js": "/olgasite/static/js/main.4adc7bbb.js",
+    "static/js/787.8b14554e.chunk.js": "/olgasite/static/js/787.8b14554e.chunk.js",
+    "static/media/Olga2.jpg": "/olgasite/static/media/Olga2.c2a8c059689946a89d63.jpg",
+    "static/media/OlgaPics.jpg": "/olgasite/static/media/OlgaPics.618a0fe5b346e40e8008.jpg",
+    "index.html": "/olgasite/index.html",
+    "main.bfae89d6.css.map": "/olgasite/static/css/main.bfae89d6.css.map",
+    "main.4adc7bbb.js.map": "/olgasite/static/js/main.4adc7bbb.js.map",
+    "787.8b14554e.chunk.js.map": "/olgasite/static/js/787.8b14554e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5896fd21.css",
-    "static/js/main.2d96a62f.js"
+    "static/css/main.bfae89d6.css",
+    "static/js/main.4adc7bbb.js"
   ]
 }
