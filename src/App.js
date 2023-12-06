@@ -35,7 +35,7 @@ clickHandler = (button) => {
           video:{},
           contact: {},
           [button]: {
-              fontSize: "23px", padding: '0', margin: '1%' } 
+              fontSize: "14px", padding: '0', margin: '1%', paddingLeft: '7px' } 
       })
    }
     
