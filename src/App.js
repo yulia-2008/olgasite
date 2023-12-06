@@ -1,9 +1,8 @@
 
 
-import Olga1 from './Pictures/Olga1.jpg';
 import React from 'react';
 import './App.css';
-import NavBar from './NavBar';
+
 import About from './About';
 import Resume from './Resume';
 import Education from './Education';

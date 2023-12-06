@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Olga1 from './Pictures/Olga1.jpg';
+
 
 class Video extends Component {
     render() {
