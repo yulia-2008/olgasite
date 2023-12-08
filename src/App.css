@@ -49,7 +49,7 @@ html,body, #root {
 #menu-box {
   position: absolute;
   text-align: left;  
-  display: block;
+  display: none;
   flex-direction:column;
   justify-content: center;
   /* border: 1px solid blue;  */
