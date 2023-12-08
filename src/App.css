@@ -84,11 +84,10 @@ display: none;
 @media only screen and (max-width: 600px) {
   #menubtn{
   /* position: absolute; */
-  margin-top: 75px;
+  margin-top: 80px;
   margin-right: 15px;;
   display: block;
-  float: right;
-  
+  float: right; 
   width: 25px;
   height: 15px;
     }
