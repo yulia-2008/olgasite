@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css';
-
+import MenuBtn from './MenuBtn.jpg';
 import About from './About';
 import Resume from './Resume';
 import Education from './Education';
@@ -15,6 +15,7 @@ import Contact from './Contact';
 class App extends React.Component {
 
   state={
+    menuBtnClicked: false,
     about: {},
     resume: {},
     education: {},
@@ -52,6 +53,8 @@ handleOverlayClicks = (e) => {
    }
 }
 
+
+
   // if(window.innerWidth < 600) {
       
   //     this.setState({
@@ -66,7 +69,9 @@ handleOverlayClicks = (e) => {
     
     return(  
       <div id='main-container' onClick={(e) => this.handleOverlayClicks(e)}>
+         {console.log(this.state)}
          <div id='picture'>
+         <img id="menubtn" src={MenuBtn} onMouseOver={this.setState({menuBthClicked: !this.state.menuBtnClicked}) } ></img>
            <div id='info-box'>      
            {Object.keys(this.state.about).length === 0 ? null : <About></About>}  
            {Object.keys(this.state.resume).length === 0 ? null : <Resume></Resume>} 
