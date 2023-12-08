@@ -1,56 +1,54 @@
 
 html,body, #root {
   /* background-color: rgb(23, 42, 59); */
-  height: 100%;
-  background-color: rgb(7, 14, 20);
+  height: 100%; 
+  background-color: rgb(7, 14, 20); 
 }
+
+
 
 #main-container{
   display: flex;
-  /* border: 3px solid yellow; */
+  /* border: 3px solid yellow;  */
   flex-direction: row;
   height: 100%;
 }
 
 #picture{ 
-  width: 68%;
+  width: 152vh;
   margin:0;  
-  height: 100%;
+  height: 100vh;
   background-image: url("Olga2.jpg");
   background-position: cover;  
   background-repeat: no-repeat; 
   background-size: contain;
-  /* border: 3px solid rgb(227, 28, 28); */
+  /* border: 3px solid rgb(227, 28, 28);   */
   
 }
 
 #menu-box {
- width: 33%;
- /* height: 100%;  */
- text-align: left;
- padding-top: 17%; 
- /* padding-top: 10%; */
- /* flex: 1; */
- /* border: 1px solid rgb(241, 229, 229);    */
+ text-align: left; 
+ display: flex;
+ flex-direction:column;
+ justify-content: center;
+ /* border: 1px solid blue; */
  color: rgb(247 200 34);
- background-color: rgb(7, 14, 20);
- font-family:Verdana;
+ /* background-color: rgb(7, 14, 20); */
+ /* font-family:Verdana; */
 }
 
 #info-box {
-height: 80%;
+height: 70%;
 margin-top: 18%;
-/* margin-left: 47%; */
-margin-bottom: 5%;
-/* flex: 2; */
-/* border: 1px solid rgb(238, 238, 234);   */
+/* border: 1px solid blue;     */
 justify-content: flex-end;
+
 }
 
 #menu-box > p {
   padding: 2%;
-  margin: 1%; 
-  /* border: 1px solid red;  */
+  margin: 1%;
+  /* border: 1px solid red;   */
   margin-right: 70%;
   font-family: 'OptiBankGothic Light';
   font-size: 9px;
@@ -59,7 +57,7 @@ justify-content: flex-end;
 
 
 #component {
-/* border: 1px solid red; */
+/* border: 1px solid red;  */
 height: 100%;
 background-color: rgb(9, 22, 28);
 opacity: 0.6;
@@ -92,11 +90,11 @@ flex-direction: column;
 }
 
 #res1 {
-  width: 300px;
+  width: 445px;
   height: auto;
 }
 #res2 {
-  width: 300px;
+  width: 445px;
   height: auto;
  
 }

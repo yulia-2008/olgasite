@@ -83,7 +83,7 @@ handleOverlayClicks = (e) => {
             <p style={this.state.resume}
                onClick={() => this.clickHandler('resume')}>Resume</p>
             <p style={this.state.education}
-               onClick={() => this.clickHandler('education')}>Education & Training</p>
+               onClick={() => this.clickHandler('education')}>Education& Training</p>
             <p style={this.state.photo}
                onClick={() => this.clickHandler('photo')}>Photo</p>
             <p style={this.state.video}
