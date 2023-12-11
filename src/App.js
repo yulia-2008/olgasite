@@ -15,19 +15,16 @@ import Contact from './Contact';
 class App extends React.Component {
 
   state={
-    menuBtnClicked: false,
     about: {},
     resume: {},
     education: {},
     photo: {},
     video:{},
     contact: {},
-    // dropdownStyle: {},
     clicked: false
 }
 
 clickHandler = (button) => {
-
      this.setState({
           about: {},
           resume: {},
@@ -39,6 +36,19 @@ clickHandler = (button) => {
               fontSize: "14px", padding: '0', margin: '1%', paddingLeft: '7px' } 
       })
    }
+
+   showContainer = (button) => { /// function does not work 
+      this.setState({
+           about: {},
+           resume: {},
+           education: {},
+           photo: {},
+           video:{},
+           contact: {},
+           [button]:  {'clicked': true}
+       })
+       
+}
     
 handleOverlayClicks = (e) => {
    if(e.target.parentNode.id != 'menu-box'){
@@ -53,25 +63,34 @@ handleOverlayClicks = (e) => {
    }
 }
 
-
-
-  // if(window.innerWidth < 600) {
-      
-  //     this.setState({
-  //         dropdownStyle: {
-  //             display: "none"
-  //         }
-  //     })            
-  // }
-
+showContent=() => {
+   this.setState({clicked: !this.state.clicked })
+}
 
   render() {
     
-    return(  
+    return( 
+      window.innerWidth < 600 ? 
+      <div id='main-container-mob' onClick={(e) => this.handleOverlayClicks(e)}>
+         <div id='info-box-mob'>
+             {Object.keys(this.state.about).length === 0 ? null: <About></About>}
+             {console.log('l', Object.keys(this.state.about).length)}
+         </div>
+         <div id='dropdown' >            
+            <img id="menubtn" src={MenuBtn} onMouseOver={this.showContent} ></img>           
+            <div id="dropdown-content" style={this.state.clicked? {display: 'block'}: {display: 'none'}}>
+               <p onClick={() => this.showContainer('about')}>About</p>
+               <p onClick={() => this.showContainer('resume')}>Resume</p>
+               <p onClick={() => this.showContainer('education')}>Education& Training</p>
+               <p onClick={() => this.showContainer('photo')}>Photo</p>
+               <p onClick={() => this.showContainer('video')}>Video</p>
+               <p onClick={() => this.showContainer('contact')}>Contact</p>
+            </div>  
+         </div> 
+      </div>
+  :
       <div id='main-container' onClick={(e) => this.handleOverlayClicks(e)}>
-         {console.log(this.state)}
          <div id='picture'>
-         <img id="menubtn" src={MenuBtn} onMouseOver={this.setState({menuBthClicked: !this.state.menuBtnClicked}) } ></img>
            <div id='info-box'>      
            {Object.keys(this.state.about).length === 0 ? null : <About></About>}  
            {Object.keys(this.state.resume).length === 0 ? null : <Resume></Resume>} 
