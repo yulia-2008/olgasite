@@ -94,7 +94,7 @@ display: none;
 
 #dropdown {
   /* float:right; */
-  width: 34%;
+  width: 28%;
   height: 100%;
   /* border: 2px solid white;  */
   
@@ -119,7 +119,6 @@ display: none;
 
 #dropdown-content p {
   color: rgb(247 200 34);
-  width: 70%;
   padding: 5px 10px;
   display: block; 
   margin: 10px auto;
@@ -136,7 +135,7 @@ display: none;
   margin-top: 68px; 
   /* border: 2px solid red;   */
   height: 100%;
-  width: 66%;
+  width: 72%;
 }
 
 #menu-box > p {
