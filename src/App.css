@@ -124,6 +124,9 @@ display: none;
   padding: 5px 10px;
   display: block; 
   margin: 10px auto;
+  font-family: 'OptiBankGothic Light';
+  font-size: 7px;
+  letter-spacing: 3px;
 }
 
 #dropdown-content p:hover {
