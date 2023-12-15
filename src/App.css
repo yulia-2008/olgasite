@@ -2,7 +2,7 @@
 html,body, #root {
   /* background-color: rgb(23, 42, 59); */
   height: 100%; 
-  background-color: rgb(7, 14, 20); 
+  background-color: rgb(10, 17, 23); 
 }
 
 @font-face {
@@ -63,6 +63,7 @@ justify-content: flex-end;
 
  #main-container-mob{
   height: 100%;
+  width: 100%;
 } 
 
 #mobile-header{
@@ -71,7 +72,8 @@ justify-content: flex-end;
   background-position: cover;  
   background-repeat: no-repeat; 
   background-size: contain;
-  height: 15%; 
+  width: 100%;
+  height: 55px;
   /* border: 1px solid red;  */
 }
 
@@ -104,7 +106,7 @@ justify-content: flex-end;
   /* float:right; */
   width: 28%;
   height: 100%;
-  /* border: 2px solid white;   */ 
+  /* border: 2px solid red;     */
 }
 #dropdown-content {
   display: none;
@@ -152,17 +154,18 @@ display: flex;
 flex-direction: column;
 }
 
-/* @media only screen and (max-width: 600px) {
-  #component {
-    
+@media only screen and (max-width: 600px) {
+  #component { 
     height: 100%;
+    width: 100%;
     background-color: rgb(9, 22, 28);
     opacity: 0.6;
     padding: 2%;
-    color: rgb(247 200 34);
-    
-    }
-}  */
+    color: rgb(247 200 34); 
+    /* border: 1px solid red; */
+  }
+} 
+
 /* @media only screen and (max-width: 600px) {
   #component-gallery {
     
@@ -196,7 +199,7 @@ flex-direction: column;
   margin-left: 5%;
   /* height: auto; */
   /* border: 1px solid red;  */
-  justify-self: center;
+  
 }
 
 #res1 {

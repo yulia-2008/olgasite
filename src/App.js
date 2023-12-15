@@ -78,12 +78,12 @@ showContent=() => {
          </div>
          <div id='mobile-body'>
             <div id='info-box-mob'>
-             {Object.keys(this.state.about).length === 0 ? null: <About></About>}
-             {Object.keys(this.state.resume).length === 0 ? null: <Resume></Resume>}
-             {Object.keys(this.state.education).length === 0 ? null: <Education></Education>}
-             {Object.keys(this.state.photo).length === 0 ? null: <Photo></Photo>}
-             {Object.keys(this.state.video).length === 0 ? null: <Video></Video>}
-             {Object.keys(this.state.contact).length === 0 ? null: <Contact></Contact>}
+             {Object.keys(this.state.about).length != 0 & this.state.clicked == true ? <About></About> : null}
+             {Object.keys(this.state.resume).length != 0 & this.state.clicked == true ? <Resume></Resume> : null}
+             {Object.keys(this.state.education).length != 0 & this.state.clicked == true ? <Education></Education> : null}
+             {Object.keys(this.state.photo).length != 0 & this.state.clicked == true ? <Photo></Photo> : null}
+             {Object.keys(this.state.video).length !=0 & this.state.clicked == true ? <Video></Video> : null}
+             {Object.keys(this.state.contact).length != 0 & this.state.clicked == true ? <Contact></Contact> : null}
              {console.log('l', Object.keys(this.state.about).length)}
             </div>
             <div id='dropdown' >                            
