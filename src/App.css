@@ -5,6 +5,12 @@ html,body, #root {
   background-color: rgb(7, 14, 20); 
 }
 
+@font-face {
+  font-family: 'OPTIBankGothic-Light';
+  src: local('OPTIBankGothic-Light'),
+  url('./OPTIBankGothic-Light.otf') format('truetype');
+}
+
 
 
 #main-container{
@@ -123,7 +129,7 @@ display: none;
   padding: 5px 10px;
   display: block; 
   margin: 10px auto;
-  font-family: 'OptiBankGothic Light' !important;
+  font-family: OPTIBankGothic-Light;
   font-size: 14px;
   letter-spacing: 3px;
 }
@@ -144,7 +150,7 @@ display: none;
   margin: 1%;
   /* border: 1px solid red;   */
   margin-right: 70%;
-  font-family: 'OptiBankGothic Light';
+  font-family: OPTIBankGothic-Light;
   font-size: 9px;
   letter-spacing: 3px;
 }

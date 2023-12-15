@@ -9,6 +9,7 @@ import Education from './Education';
 import Photo from './Photo';
 import Video from './Video';
 import Contact from './Contact';
+import './OPTIBankGothic-Light.otf';
 //import { HashRouter, Route} from 'react-router-dom';
 
 
