@@ -121,7 +121,7 @@ justify-content: flex-end;
   margin: 10px auto;
   font-family: OPTIBankGothic-Light;
   font-size: 13px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 #dropdown-content p:hover {
@@ -171,7 +171,7 @@ flex-direction: column;
 }
 
 #component > h4{
-  font-family: 'OptiBankGothic Light';
+  font-family: OPTIBankGothic-Light;
   font-size: 9px;
   letter-spacing: 3px;
   padding-bottom: 3%;
