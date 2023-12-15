@@ -7,7 +7,7 @@ class Education extends Component {
         return (
             <div id='component'>           
                 <h4>Education & training</h4>
-                
+                <br></br>
                 <p>&#x2022; Lee Strasberg Theather & Film Institute &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; acting &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   2 Years Conservatory, New York USA</p>
                 <p style={{marginBottom:0}}>&nbsp; Instructors: Ted Zurkowski, Alex Notkin, Lola Cohen, Tim Crouse, Tom Rowan, Lorca Peres, </p>
                 <p style={{marginTop:0}}>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Mike Magliocca, Mitch McCoy, Bruce Baumer, Bill Hopkins</p>

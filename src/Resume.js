@@ -10,7 +10,7 @@ class Resume extends Component {
         return (   
             <div id='component' 
                  style={window.innerWidth > 600 ?
-                     {opacity: 1, padding: 0, marginTop: '-150px'}: {}
+                     {opacity: 1, padding: 0, marginTop: '-150px'}: {opacity: 0.8}
                  }>
                 <img id='resume' src={OlgaRes1}></img>   
                 <img id='resume' src={OlgaRes6} ></img>            
