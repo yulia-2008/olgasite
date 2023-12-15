@@ -131,8 +131,8 @@ justify-content: flex-end;
 
 #menu-box > p {
   padding: 2%;
-  margin: 1%;
-  /* border: 1px solid red;   */
+  margin: 4%;
+  /* border: 1px solid red;    */
   margin-right: 70%;
   font-family: OPTIBankGothic-Light;
   font-size: 9px;
@@ -152,9 +152,9 @@ display: flex;
 flex-direction: column;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #component {
-    /* border: 1px solid red;  */
+    
     height: 100%;
     background-color: rgb(9, 22, 28);
     opacity: 0.6;
@@ -162,7 +162,19 @@ flex-direction: column;
     color: rgb(247 200 34);
     
     }
-} 
+}  */
+/* @media only screen and (max-width: 600px) {
+  #component-gallery {
+    
+    height: 40%;
+    background-color: rgb(9, 22, 28);
+    opacity: 0.6;
+    padding: 2%;
+    color: rgb(247 200 34);
+    margin: 5%;
+    
+    }
+}  */
 
 
 #component > p{
@@ -180,8 +192,11 @@ flex-direction: column;
 
 
 #five-pics {
-  width: 100%;
-  height: auto;
+  width:90%;
+  margin-left: 5%;
+  /* height: auto; */
+  /* border: 1px solid red;  */
+  justify-self: center;
 }
 
 #res1 {
