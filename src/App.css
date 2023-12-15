@@ -120,7 +120,7 @@ justify-content: flex-end;
   display: block; 
   margin: 10px auto;
   font-family: OPTIBankGothic-Light;
-  font-size: 13px;
+  font-size: 9px;
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -136,7 +136,7 @@ justify-content: flex-end;
   margin-right: 70%;
   font-family: OPTIBankGothic-Light;
   font-size: 9px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 #component {
@@ -174,7 +174,7 @@ flex-direction: column;
 #component > h4{
   font-family: OPTIBankGothic-Light;
   font-size: 9px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   padding-bottom: 3%;
 }
 
