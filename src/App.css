@@ -91,31 +91,57 @@ display: none;
 
  #main-container-mob{
   height: 100%;
-  display: flex;
+  /* display: flex;
   background-image: url("OlgaMobile.jpg");
   background-position: cover;  
   background-repeat: no-repeat; 
-  background-size: contain;
+  background-size: contain; */
 } 
+
+#mobile-header{
+  position: relative;
+  background-image: url("OlgaMob-header.jpg");
+  background-position: cover;  
+  background-repeat: no-repeat; 
+  background-size: contain;
+  height: 15%; 
+  /* border: 1px solid red;  */
+}
+
+#menubtn{
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  /* margin-top: 82px; 
+  margin-left: 80px; 
+  margin-bottom: 3px; */
+  width: 15px;
+  height: 10px;
+  cursor: pointer; 
+  /* border: 1px solid red;  */
+}
+
+#mobile-body {
+  display: flex;
+  background-image: url("OlgaMobilePic.jpg");
+  background-position: cover;  
+  background-repeat: no-repeat; 
+  background-size: contain;
+  height: 85%;
+}
+
+#info-box-mob{
+  /* border: 2px solid red;   */
+  height: 100%;
+  width: 72%;
+}
 
 #dropdown {
   /* float:right; */
   width: 28%;
   height: 100%;
-  /* border: 2px solid white;   */
-  
+  /* border: 2px solid white;   */ 
 }
-
-#menubtn{
-  margin-top: 82px; 
-  margin-left: 80px; 
-  margin-bottom: 3px;
-  width: 20px;
-  height: 15px;
-  /* border: 2px solid red;   */
-  cursor: pointer; 
-}
-
 #dropdown-content {
   display: none;
   padding-top: 3px;
@@ -130,7 +156,7 @@ display: none;
   display: block; 
   margin: 10px auto;
   font-family: OPTIBankGothic-Light;
-  font-size: 14px;
+  font-size: 10px;
   letter-spacing: 3px;
 }
 
@@ -138,12 +164,7 @@ display: none;
   background-color: rgb(51, 77, 100);
 }
 
-#info-box-mob{
-  margin-top: 68px; 
-  /* border: 2px solid red;   */
-  height: 100%;
-  width: 72%;
-}
+
 
 #menu-box > p {
   padding: 2%;

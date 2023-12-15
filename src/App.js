@@ -73,12 +73,15 @@ showContent=() => {
     return( 
       window.innerWidth < 600 ? 
       <div id='main-container-mob' >
-         <div id='info-box-mob'>
+         <div id='mobile-header'>
+            <img id="menubtn" src={MenuBtn} onClick={this.showContent} ></img>      
+         </div>
+         <div id='mobile-body'>
+            <div id='info-box-mob'>
              {Object.keys(this.state.about).length === 0 ? null: <About></About>}
              {console.log('l', Object.keys(this.state.about).length)}
-         </div>
-         <div id='dropdown' >            
-            <img id="menubtn" src={MenuBtn} onClick={this.showContent} ></img>           
+            </div>
+            <div id='dropdown' >                            
             <div id="dropdown-content" style={this.state.clicked? {display: 'block'}: {display: 'none'}}>
                <p onClick={() => this.showContainer('about')}>About</p>
                <p onClick={() => this.showContainer('resume')}>Resume</p>
@@ -88,6 +91,7 @@ showContent=() => {
                <p onClick={() => this.showContainer('contact')}>Contact</p>
             </div>  
          </div> 
+         </div>
       </div>
   :
       <div id='main-container' onClick={(e) => this.handleOverlayClicks(e)}>
