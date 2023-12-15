@@ -52,22 +52,6 @@ html,body, #root {
  /* border: 1px solid blue; */
  color: rgb(247 200 34);
 }
-/* @media only screen and (max-width: 600px) {
-#menu-box {
-  position: absolute;
-  text-align: left;  
-  display: none;
-  flex-direction:column;
-  justify-content: center;
-  
-  color: rgb(247 200 34);
-  height: 100%;
-  width: 25%;
-  right: 0px;
-  top: 110px;
-  background-color: rgb(7, 14, 20); 
- }
-} */
 
 #info-box {
 height: 70%;
@@ -76,26 +60,9 @@ margin-top: 20%;
 justify-content: flex-end;
 }
 
-/* @media only screen and (max-width: 600px) {
-#info-box {
-  height: 70%;
-  margin-top: 20%;
-  justify-content: flex-end;
-}  
-} */
-
-/* #menubtn{
-display: none;
-}
- */
 
  #main-container-mob{
   height: 100%;
-  /* display: flex;
-  background-image: url("OlgaMobile.jpg");
-  background-position: cover;  
-  background-repeat: no-repeat; 
-  background-size: contain; */
 } 
 
 #mobile-header{
@@ -110,7 +77,7 @@ display: none;
 
 #menubtn{
   position: absolute;
-  right: 10px;
+  right: 15px;
   bottom: 10px;
   width: 20px;
   height: 15px;
@@ -153,7 +120,7 @@ display: none;
   display: block; 
   margin: 10px auto;
   font-family: OPTIBankGothic-Light;
-  font-size: 5px;
+  font-size: 13px;
   letter-spacing: 3px;
 }
 
@@ -171,20 +138,6 @@ display: none;
   letter-spacing: 3px;
 }
 
-/* @media only screen and (max-width: 600px) {
-#menu-box > p {
-  display: none;
-  padding: 5%;
-  margin: 3%;
- 
-  margin-right: 70%;
-  font-family: 'OptiBankGothic Light';
-  font-size: 9px;
-  letter-spacing: 3px;
-}
-} */
-
-
 #component {
 /* border: 1px solid red;  */
 height: 100%;
@@ -197,6 +150,18 @@ color: rgb(247 200 34);
 display: flex;
 flex-direction: column;
 }
+
+@media only screen and (max-width: 600px) {
+  #component {
+    /* border: 1px solid red;  */
+    height: 100%;
+    background-color: rgb(9, 22, 28);
+    opacity: 0.6;
+    padding: 2%;
+    color: rgb(247 200 34);
+    
+    }
+} 
 
 
 #component > p{
@@ -228,12 +193,3 @@ flex-direction: column;
  
 }
 
-/* #component > p {
-  font-size: 45px;
-  color: white;
-} */
-
-/* #menu-box > p {
-  width: '30%';
-  border: '1px solid red', 
-} */
