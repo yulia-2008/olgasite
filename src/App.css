@@ -111,10 +111,7 @@ display: none;
 #menubtn{
   position: absolute;
   right: 7px;
-  bottom: 7px;
-  /* margin-top: 82px; 
-  margin-left: 80px; 
-  margin-bottom: 3px; */
+  bottom: 5px;
   width: 15px;
   height: 10px;
   cursor: pointer; 
@@ -156,7 +153,7 @@ display: none;
   display: block; 
   margin: 10px auto;
   font-family: OPTIBankGothic-Light;
-  font-size: 10px;
+  font-size: 5px;
   letter-spacing: 3px;
 }
 
