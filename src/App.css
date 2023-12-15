@@ -110,10 +110,10 @@ display: none;
 
 #menubtn{
   position: absolute;
-  right: 7px;
-  bottom: 5px;
-  width: 15px;
-  height: 10px;
+  right: 10px;
+  bottom: 10px;
+  width: 20px;
+  height: 15px;
   cursor: pointer; 
   /* border: 1px solid red;  */
 }
@@ -160,8 +160,6 @@ display: none;
 #dropdown-content p:hover {
   background-color: rgb(51, 77, 100);
 }
-
-
 
 #menu-box > p {
   padding: 2%;
