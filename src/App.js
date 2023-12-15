@@ -65,7 +65,15 @@ handleOverlayClicks = (e) => {
 }
 
 showContent=() => {
-   this.setState({clicked: !this.state.clicked })
+   this.setState({
+      clicked: !this.state.clicked, 
+      about: {},
+      resume: {},
+      education: {},
+      photo: {},
+      video:{},
+      contact: {}
+   })
 }
 
   render() {
