@@ -122,6 +122,7 @@ justify-content: flex-end;
   font-family: OPTIBankGothic-Light;
   font-size: 13px;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 #dropdown-content p:hover {
