@@ -169,18 +169,15 @@ flex-direction: column;
   }
 } 
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #component-gallery {
-    
-    height: 40%;
+    height: 100%;
     background-color: rgb(9, 22, 28);
-    opacity: 0.6;
-    padding: 2%;
-    color: rgb(247 200 34);
-    margin: 5%;
-    
+    opacity: 1;
+    padding: 0;
+    color: rgb(247 200 34);    
     }
-}  */
+} 
 
 
 #component > p{
@@ -198,10 +195,14 @@ flex-direction: column;
 
 #five-pics {
   width:90%;
-  margin-left: 5%;
-  /* height: auto; */
-  /* border: 1px solid red;  */
-  
+  margin-left: 5%;  
+}
+
+@media only screen and (max-width: 600px) {
+  #five-pics {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 #res1 {
