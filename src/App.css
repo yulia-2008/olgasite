@@ -97,7 +97,7 @@ justify-content: flex-end;
 }
 
 #info-box-mob{
-  /* border: 2px solid red;   */
+  /* border: 2px solid green; */
   height: 100%;
   width: 72%;
   display: flex;
@@ -159,26 +159,22 @@ flex-direction: column;
   #component { 
     height: 100%;
     width: 100%;
-    background-color: rgb(9, 22, 28);
+    /* background-color: rgb(9, 22, 28); */
     opacity: 0.9;
-    /* padding: 10px 10px 10px 10px; */
-    padding: 10px; 
     color: rgb(247 200 34); 
-    /* border: 1px solid red; */
+    /* border: 1px solid red;  */
     align-self: center;
+    padding: 0;
   }
 } 
 
-@media only screen and (max-width: 600px) {
-  #component-gallery {
-    height: 100%;
-    background-color: rgb(9, 22, 28);
-    opacity: 1;
-    padding: 0;
-    color: rgb(247 200 34);    
-    }
-} 
-
+#component-gallery {
+  height: 100%;
+  background-color: rgb(9, 22, 28);
+  opacity: 1;
+  padding: 0;
+  color: rgb(247 200 34);    
+}
 
 #component > p{
   font-family: 'Segoe UI';
@@ -192,7 +188,6 @@ flex-direction: column;
   letter-spacing: 2px;
 }
 
-
 #five-pics {
   width:90%;
   margin-left: 5%;  
@@ -205,13 +200,16 @@ flex-direction: column;
   }
 }
 
-#res1 {
+#resume {
   width: 445px;
   height: auto;
 }
-#res2 {
-  width: 445px;
-  height: auto;
- 
+
+@media only screen and (max-width: 600px) {
+  #resume {
+    width: 100%;
+    height: auto;
+  }
 }
+
 

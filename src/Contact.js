@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div id='component' 
                  style={window.innerWidth > 600 ? 
-                    {width:'20%'}: {}
+                    {width:'20%'}: {paddingLeft: '10px'}
                  }>            
                     <h4>Contact</h4> 
                     <p>olgasopian@gmail.com</p>                

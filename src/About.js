@@ -10,7 +10,7 @@ class About extends Component {
         return (    
             <div id='component' 
                  style={window.innerWidth > 600 ? 
-                   {width:'45%'}: {}
+                   {width:'45%'}: {paddingLeft: '10px', paddingRight: '10px'}
                 }>    
                 <p style={{lineHeight: '14pt'}}>About Olga...Olga is a New York city base acress.
                     She started acting since she moved to the USA. At first it was
