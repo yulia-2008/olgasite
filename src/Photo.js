@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import OlgaPics from './OlgaPics.jpg';
-import GalleryMobile from './GalleryMobile.jpg';
+import GalleryMobile from './GalleryMobile1.jpg';
 
 class Photo extends Component {
     render() {
