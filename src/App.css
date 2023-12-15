@@ -63,10 +63,10 @@ justify-content: flex-end;
   background-image: url("OlgaMob-header.jpg");
   background-position: cover;  
   background-repeat: no-repeat; 
-  background-size: contain;
-  width: 100%;
-  height: 100px;
-  /* border: 1px solid red;  */
+  background-size: contain; 
+  width: auto;
+  height: 15%;
+  /* border: 1px solid red;   */
 }
 
 #menubtn{
@@ -162,7 +162,7 @@ flex-direction: column;
 
 #component-gallery {
   height: 100%;
-  background-color: rgb(9, 22, 28);
+  background-color: rgb(7, 14, 20);
   opacity: 1;
   padding: 0;
   color: rgb(247 200 34);    

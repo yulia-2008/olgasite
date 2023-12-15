@@ -10,6 +10,7 @@ import Photo from './Photo';
 import Video from './Video';
 import Contact from './Contact';
 import './OPTIBankGothic-Light.otf';
+import OlgaMobHeader from './OlgaMob-header.jpg'
 //import { HashRouter, Route} from 'react-router-dom';
 
 
@@ -81,7 +82,7 @@ showContent=() => {
     return( 
       window.innerWidth < 600 ? 
       <div id='main-container-mob' >
-         <div id='mobile-header'>
+         <div id='mobile-header'>        
             <img id="menubtn" src={MenuBtn} onClick={this.showContent} ></img>      
          </div>
          <div id='mobile-body'>
