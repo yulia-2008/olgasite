@@ -2,7 +2,8 @@
 html,body, #root {
   /* background-color: rgb(23, 42, 59); */
   height: 100%; 
-  background-color: rgb(10, 17, 23); 
+  /* background-color: rgb(10, 17, 23);  */
+  background-color: rgb(7, 14, 20); 
 }
 
 @font-face {
@@ -97,7 +98,7 @@ justify-content: flex-end;
 }
 
 #info-box-mob{
-  /* border: 2px solid green; */
+  border: 2px solid green; 
   height: 100%;
   width: 72%;
   display: flex;
@@ -162,7 +163,7 @@ flex-direction: column;
     /* background-color: rgb(9, 22, 28); */
     opacity: 0.9;
     color: rgb(247 200 34); 
-    /* border: 1px solid red;  */
+    border: 3px solid red;  
     align-self: center;
     padding: 0;
   }

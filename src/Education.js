@@ -5,7 +5,11 @@ import React, { Component } from 'react';
 class Education extends Component {
     render() {
         return (
-            <div id='component'>           
+            <div id='component'
+                 style={window.innerWidth > 600 ? 
+                 {}: {paddingLeft: '10px', paddingRight: '10px'}
+             }
+            >           
                 <h4>Education & training</h4>
                 <br></br>
                 <p>&#x2022; Lee Strasberg Theather & Film Institute &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; acting &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   2 Years Conservatory, New York USA</p>
