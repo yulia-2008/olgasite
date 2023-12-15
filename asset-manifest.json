@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/olgasite/static/css/main.fa7e8018.css",
+    "main.css": "/olgasite/static/css/main.173c3968.css",
     "main.js": "/olgasite/static/js/main.1381899e.js",
     "static/js/787.71db7dcf.chunk.js": "/olgasite/static/js/787.71db7dcf.chunk.js",
     "static/media/OlgaMobilePic.jpg": "/olgasite/static/media/OlgaMobilePic.5418c0ee0f37682ec8e2.jpg",
@@ -11,12 +11,12 @@
     "static/media/OlgaMob-header.jpg": "/olgasite/static/media/OlgaMob-header.bbd66807884542a0b3be.jpg",
     "static/media/OPTIBankGothic-Light.otf": "/olgasite/static/media/OPTIBankGothic-Light.473bcb135839b84d2bca.otf",
     "index.html": "/olgasite/index.html",
-    "main.fa7e8018.css.map": "/olgasite/static/css/main.fa7e8018.css.map",
+    "main.173c3968.css.map": "/olgasite/static/css/main.173c3968.css.map",
     "main.1381899e.js.map": "/olgasite/static/js/main.1381899e.js.map",
     "787.71db7dcf.chunk.js.map": "/olgasite/static/js/787.71db7dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa7e8018.css",
+    "static/css/main.173c3968.css",
     "static/js/main.1381899e.js"
   ]
 }
