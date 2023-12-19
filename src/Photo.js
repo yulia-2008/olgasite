@@ -6,8 +6,7 @@ class Photo extends Component {
     render() {
         return (
             <div id='component-gallery'>          
-               <img id='five-pics' src={window.innerWidth < 600 ? 
-                   GalleryMobile2 : OlgaPics}></img>  
+               <img id='five-pics' src={OlgaPics}></img>  
             </div>
         );
     }
