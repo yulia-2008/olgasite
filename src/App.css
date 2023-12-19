@@ -6,12 +6,12 @@ html,body, #root {
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   html,body, #root {
     height: 100%; 
     background-color: rgb(14 23, 28);  
   }
-}
+} */
 
 @font-face {
   font-family: 'OPTIBankGothic-Light';
@@ -113,7 +113,7 @@ justify-content: flex-end;
 #dropdown-content {
   display: none;
   padding-top: 6px;
-  background-color:rgb(14, 23, 28); 
+  background-color:rgb(7, 14, 20); 
   height: 100%;
   /* border: 2px solid red;   */
 }  
@@ -162,7 +162,7 @@ flex-direction: column;
     width: 100%;
     opacity: 0.9;
     color: rgb(247 200 34); 
-    background-color: rgb(14, 23, 28);
+    background-color: rgb(7, 14, 20);
     /* border: 3px solid red;   */
     align-self: center;
     padding: 0;
@@ -171,7 +171,7 @@ flex-direction: column;
 
 #component-gallery {
   height: 100%;
-  background-color: rgb(14, 23, 28);
+  background-color: rgb(7, 14, 20);
   opacity: 1;
   padding: 0;
   color: rgb(247 200 34);    
