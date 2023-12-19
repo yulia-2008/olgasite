@@ -81,7 +81,7 @@ justify-content: flex-end;
 
 #mobile-body {
   display: flex;
-  background-image: url("OlgaMobilePic.jpg");
+  background-image: url("OlgaMobilePicLong.jpg");
   background-position: cover;  
   background-repeat: no-repeat; 
   background-size: contain;
