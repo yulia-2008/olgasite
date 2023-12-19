@@ -2,8 +2,9 @@
 html,body, #root {
   /* background-color: rgb(23, 42, 59); */
   height: 100%; 
-  /* background-color: rgb(10, 17, 23);  */
-  background-color: rgb(7, 14, 20); 
+  /* background-color: rgb(11 18, 23);  */
+  background-color: rgb(7, 14, 20);  
+  
 }
 
 @font-face {
@@ -65,7 +66,7 @@ justify-content: flex-end;
   background-repeat: no-repeat; 
   background-size: contain; 
   width: auto;
-  height: 15%;
+  height: 15%; 
   /* border: 1px solid red;   */
 }
 
@@ -99,7 +100,7 @@ justify-content: flex-end;
   /* float:right; */
   width: 28%;
   height: 100%;
-  /* opacity: 0.9; */
+  opacity: 0.9; 
   /* border: 2px solid red;     */
 }
 #dropdown-content {
