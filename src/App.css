@@ -160,7 +160,7 @@ flex-direction: column;
     width: 100%;
     opacity: 0.9;
     color: rgb(247 200 34); 
-    background-color: rgb(7, 14, 20);
+    background-color: rgb(14, 23, 28);
     /* border: 3px solid red;   */
     align-self: center;
     padding: 0;
@@ -169,7 +169,7 @@ flex-direction: column;
 
 #component-gallery {
   height: 100%;
-  background-color: rgb(7, 14, 20);
+  background-color: rgb(14, 23, 28);
   opacity: 1;
   padding: 0;
   color: rgb(247 200 34);    
