@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/olgasite/static/css/main.37e9b7c4.css",
-    "main.js": "/olgasite/static/js/main.f67f8ba9.js",
+    "main.css": "/olgasite/static/css/main.28873dae.css",
+    "main.js": "/olgasite/static/js/main.cecba411.js",
     "static/js/787.71db7dcf.chunk.js": "/olgasite/static/js/787.71db7dcf.chunk.js",
-    "static/media/OlgaMobilePicLong.jpg": "/olgasite/static/media/OlgaMobilePicLong.1ed6173a925690140ee6.jpg",
+    "static/media/OlgaMobilePicLong.jpg": "/olgasite/static/media/OlgaMobilePicLong.f8f0ca917c029107b4fd.jpg",
     "static/media/Olga2.jpg": "/olgasite/static/media/Olga2.c2a8c059689946a89d63.jpg",
     "static/media/OlgaPics.jpg": "/olgasite/static/media/OlgaPics.5794a1da08678152e84c.jpg",
     "static/media/GalleryMobile2.jpg": "/olgasite/static/media/GalleryMobile2.7cf73c746f1250881996.jpg",
@@ -12,12 +12,12 @@
     "static/media/OlgaMob-header.jpg": "/olgasite/static/media/OlgaMob-header.bbd66807884542a0b3be.jpg",
     "static/media/OPTIBankGothic-Light.otf": "/olgasite/static/media/OPTIBankGothic-Light.473bcb135839b84d2bca.otf",
     "index.html": "/olgasite/index.html",
-    "main.37e9b7c4.css.map": "/olgasite/static/css/main.37e9b7c4.css.map",
-    "main.f67f8ba9.js.map": "/olgasite/static/js/main.f67f8ba9.js.map",
+    "main.28873dae.css.map": "/olgasite/static/css/main.28873dae.css.map",
+    "main.cecba411.js.map": "/olgasite/static/js/main.cecba411.js.map",
     "787.71db7dcf.chunk.js.map": "/olgasite/static/js/787.71db7dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37e9b7c4.css",
-    "static/js/main.f67f8ba9.js"
+    "static/css/main.28873dae.css",
+    "static/js/main.cecba411.js"
   ]
 }
